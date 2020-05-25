@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=yes, initial-scale=1.0,maximum-scale=3.0,minimum-scale=1.0">
+    <title>Restaurand | Galeria </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="modal" id="modal">
+       <div class="modal__content">
+           <img src="" alt="" class="modal__img" id="modal__img">
+       </div>
+       <div class="modal__boton" id="modal__boton">X</div>
+   </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Restaurand</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone"></span> 999-999-999
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location"></span>Av.Arenales #1222 Ayacucho-Peru
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav" id="menufixed">
+        <div class="container container--flex">
+            <samp class="icon-menu" id="btnmenu"></samp>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select" >Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul> 
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/portada-galeria.jpg" alt="" class="banner__img">
+        <div class="banner__content">La mejor comida esta aqui</div>
+    </section>
+    <main class="main">
+       <div class="group gallery">
+           <h2 class="group__title">Nuestra Galería</h2>
+           <div class="container container--flex">
+               <div class="column column--50-25">
+                   <img src="img/Galeria/comida1.jpeg" alt="" class="gallery__img gallery__img--big"  >
+                   <img src="img/Galeria/comida2.jpeg" alt="" class="gallery__img gallery__img--small" >
+               </div>
+               <div class="column column--50-25">
+                   <img src="img/Galeria/comida3.jpeg" alt="" class="gallery__img gallery__img--small" >
+                   <img src="img/Galeria/comida4.jpeg" alt="" class="gallery__img gallery__img--big"  >
+                   
+               </div>
+               <div class="column column--50-25">
+                   <img src="img/Galeria/comida5.jpeg" alt="" class="gallery__img gallery__img--big"  >
+                   <img src="img/Galeria/comida6.jpeg" alt="" class="gallery__img gallery__img--small" >
+               </div>
+               <div class="column column--50-25">
+                   <img src="img/Galeria/comida7.jpeg" alt="" class="gallery__img gallery__img--small" >
+                   <img src="img/Galeria/comida8.jpeg" alt="" class="gallery__img gallery__img--big"  >
+               </div>
+           </div>
+       </div>
+        
+
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Por qué visitarnos ?</h2>
+                <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam perferendis consequatur, voluptatem voluptate reiciendis inventore.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contactanos</h2>
+                <p class="column__txt">Av. arenales 1221</p>
+                <p class="column__txt">Telefono: 999-999-999</p>
+                <p class="column__txt">restaurant@gmail.com</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes Sociales</h2>
+                <p class="column__txt"><a href="" class="icon-facebook"> Facebook</a></p>
+                <p class="column__txt"><a href="" class="icon-twitter">siguenos en Twitter</a></p>
+                <p class="column__txt"><a href="" class="icon-youtube">Vicita nuestro canal</a></p>
+            </div>
+            <p class="copy">© 2020 Restaurand| Todos los derechos reservados</p>
+        </div>
+    </footer>
+ <script src="js/menu.js"> </script>
+ <script src="js/modal.js"> </script>
+ <script src="js/menufixed.js"> </script>
+</body>
+</html>
